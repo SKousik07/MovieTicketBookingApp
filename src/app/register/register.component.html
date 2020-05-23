@@ -1,0 +1,101 @@
+<div class="container-sm">
+<div class="innerContainer">
+<div class="row mt-4">
+  <div class="col-12">
+    <h4>User Registration</h4>
+  </div>
+
+  <div class="col-12">
+    <div class="row" *ngIf="authError">
+      <div class="col-12 alert alert-danger">
+        {{ authError?.message }}
+      </div>
+    </div>
+    <form #userRegForm="ngForm" (ngSubmit)="createUser(userRegForm)">
+      <div class="row">
+        <div class="col-md-6 mb-2">
+          <label for="firstName">First name</label>
+          <input ngModel #firstname="ngModel" name="firstName" type="text" class="form-control" id="firstName">
+        </div>
+        <div class="col-md-6 mb-2">
+          <label for="lastName">Last name</label>
+          <input ngModel #lastname="ngModel" name="lastName" type="text" class="form-control" id="lastName" value="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mb-2">
+          <label for="email">Email</label>
+          <input ngModel #email="ngModel" name="email" type="email" class="form-control">
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <label for="password">Password</label>
+            <input ngModel #password="ngModel" name="password" type="password" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <label>Confirm Password</label>
+            <input name="password" type="password" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+<!-- <div class="regBox">
+    <div class="reg">
+
+<div class="displayTable">
+  <div class="displayTableCell">
+      <h3 class="reg-header">Sign Up</h3>
+    <div class="authBlock" class="reg-container">
+      
+      <div class="formGroup">
+        <input type="email" class="formControl" placeholder="Email Address" #userEmail required>
+      </div>
+
+      <div class="formGroup">
+        <input type="password" class="formControl" placeholder="Password" #userPwd required>
+      </div>
+
+      <div class="formGroup">
+        <input type="button" class="btn btnPrimary" value="Sign Up" (click)="authService.SignUp(userEmail.value, userPwd.value)">
+      </div>
+
+      <p>or</p>
+
+      
+      
+        <button type="button" class="btn googleBtn" (click)="authService.GoogleAuth()">
+          <i class="fab fa-google-plus-g"></i>
+          Continue with Google
+        </button>
+       -->
+
+      <!-- Continue with Facebook -->
+      <!-- <div class="formGroup">
+        <button type="button" class="btn facebookBtn" (click)="authService.FacebookAuth()">
+          <i class="fab fa-facebook"></i>
+          Continue with Facebook
+        </button>
+      </div> -->
+    
+
+    <!-- <div class="redirectToLogin">
+      <span>Already have an account? <span class="redirect" routerLink="/sign-in">Log In</span></span>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div> --> -->

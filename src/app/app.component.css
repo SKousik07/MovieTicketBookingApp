@@ -1,0 +1,15 @@
+.spacer{
+    flex : 1 1 auto;
+}
+.select{
+    max-height: 80vw;
+  }
+  .mat-toolbar.mat-primary {
+    background: rgb(95, 21, 95);
+    color: #fff;
+  }
+
+ .btn {
+   font-size: small;
+ 
+ }

@@ -1,0 +1,148 @@
+<div class="container mt-4 ">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md-8 block" style="height: 500px; margin-bottom: 28px;">
+            <!-- <form (ngSubmit)="userForm(userF)" #userF="ngForm">
+              <div class="form-group">
+                <label>User Name</label>
+                <input type="text" required name="user_name" ngModel class="form-control form-control-sm">
+              </div>
+              <div class="form-group">
+                <label>User Mobile No</label>
+                <input type="text" required name="user_mobile" ngModel class="form-control form-control-sm">
+              </div>
+              <div class="form-group">
+                <label>Email </label>
+                <input type="email" required name="user_email" ngModel class="form-control form-control-sm">
+              </div>
+              <button [disabled]="!userF.valid" class="btn btn-sm btn-primary">Submit</button>
+            </form> -->
+       <!-- <div class="container"> -->
+      <!-- <div class="row"> -->
+              <!-- You can make it whatever width you want. I'm making it full width
+              on <= small devices and 4/12 page width on >= medium devices -->
+      <!-- <div class="col-xs-12 col-md-4"> -->
+              
+              
+              <!-- CREDIT CARD FORM STARTS HERE -->
+              <div class="panel panel-default credit-card-box">
+              <div class="panel-heading display-table" >
+              <div class="row display-tr" >
+              <h3 class="panel-title display-td" >Payment Details</h3>
+              <div class="display-td" >                            
+              <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
+              </div>
+              </div>                    
+              </div>
+              <div class="panel-body">
+              <form role="form" id="payment-form" (ngSubmit)="userForm(userF)" #userF="ngForm">
+              <div class="row">
+              <div class="col-xs-12">
+              <div class="form-group">
+              <label for="cardNumber">CARD NUMBER</label>
+              <div class="input-group">
+              <input 
+              type="tel"
+              class="form-control form-control-sm"
+              name="cardNumber"
+              maxlength="16"
+              pattern="\d*"
+              placeholder="Valid Card Number"
+              autocomplete="cc-number"
+              required autofocus 
+              ngModel
+              
+              #c
+              />
+              <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+              </div>
+              </div>                            
+              </div>
+              </div>
+              <div class="row">
+              <div class="col-xs-7 col-md-7">
+              <div class="form-group">
+              <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+              <input 
+              type="tel" 
+              class="form-control" 
+              name="cardExpiry"
+              placeholder="MM / YY"
+              autocomplete="cc-exp"
+              ngmodel
+              required 
+              #e
+              />
+              </div>
+              </div>
+              <div class="col-xs-5 col-md-5 pull-right">
+              <div class="form-group">
+              <label for="cardCVC">CV CODE</label>
+              <input 
+              type="tel" 
+              class="form-control"
+              name="cardCVC"
+              maxlength="4" 
+              placeholder="CVC"
+              autocomplete="cc-csc"
+              required
+              ngmodel
+              #v
+              />
+              </div>
+              </div>
+              </div>
+              <div class="row">
+              <div class="col-xs-12">
+              <div class="form-group">
+              <label for="couponCode">COUPON CODE</label>
+              <input type="text" class="form-control" name="couponCode" placeholder="*If Aplicable*" />
+              </div>
+              </div>                        
+              </div>
+              <div class="row">
+              <div class="col-xs-12">
+              <button  [disabled]="!userF.valid" class="btn btn-success btn-lg btn-block" type="submit"  (click)="msg()">Start Subscription</button>
+              </div>
+              </div>
+              <div class="row" style="display:none;">
+              <div class="col-xs-12">
+              <p class="payment-errors"></p>
+              </div>
+              </div>
+              </form>
+              </div>
+              </div>            
+              <!-- CREDIT CARD FORM ENDS HERE -->
+          
+              
+              <!-- </div>            
+              
+              
+              
+              </div>
+              </div>
+               -->
+              
+            
+
+
+
+
+          </div>
+          
+            
+          <div class="col-md-4">
+            <div  class="card card-body block ">
+              <h5>Booking Details</h5>
+              <h3 style="color:coral"> {{card?.Title}} </h3>
+              <h5> Date & Time :{{date}} & 6.45pm</h5>
+              <h5><span>Total Price: {{cost}}  </span></h5>
+              <h5>Seats ({{selected}})</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

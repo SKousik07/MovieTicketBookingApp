@@ -1,0 +1,163 @@
+.container-sm{
+  max-width: 800px;
+}
+.innerContainer{
+  margin: 100px;
+}
+
+
+/* .example-full-width{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+  .btn-block-right{
+    float: right;
+    margin-top: -1%;
+    margin-bottom: 4%;
+    margin-right: 5%;
+    width: 25%;
+  }
+  .btn-block-left{
+    float: right;
+    margin-top: -1%;
+    margin-bottom: 4%;
+    margin-right: 5%;
+    width: 25%;
+  }
+  .card {
+    box-shadow: 0  10px  20px  rgba(0,0,0,0.19), 0  6px  6px  rgba(0,0,0,0.23);
+}
+.regBox{
+    background: #faecec;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.example-full-width{
+    width: 100%;
+}
+.reg {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+  }
+  
+  .reg-header,
+  .reg p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .reg-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: rgb(15, 66, 107);
+  }
+  
+  .reg-header {
+    background: rgb(12, 77, 129);
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .reg-container {
+    background: #ebebeb;
+    padding: 12px;
+  }
+  
+  .reg p {
+    text-align: center;
+  }
+  
+  .reg input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+  .reg #l {
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .reg button {
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+  
+  .reg input[type="email"],
+  .reg input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+  }
+  
+  .reg input[type="email"]:focus,
+  .reg input[type="password"]:focus {
+    border-color: #888;
+  }
+  .googleBtn {
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+
+  }
+  .reg input[type="button"] {
+    background: rgb(1, 29, 51);
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  .reg button[type="button"] {
+    background: rgb(1, 29, 51);
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .reg input[type="button"]:hover {
+    background: #17c;
+  }
+  
+  .reg input[type="button"]:focus {
+    border-color: #05a;
+  }
+  .reg button[type="button"]:hover {
+    background: #17c;
+  }
+  
+  .reg button[type="button"]:focus {
+    border-color: #05a;
+  } */
